@@ -34,10 +34,6 @@ export const Navbar = () => {
     },
     {
       id: 7,
-      data: "testimonials",
-    },
-    {
-      id: 8,
       data: "contact",
     },
   ];
