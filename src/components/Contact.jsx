@@ -42,7 +42,7 @@ export const Contact = () => {
     >
       <div className="max-w-screen-lg p-4 h-full w-full mx-auto text-white flex flex-col justify-center items-center md:items-start">
         <div className="pb-6 sm:text-center">
-          <p className="text-4xl sm:text-5xl font-bold text-white hover:text-rose-500 duration-200">Contact</p>
+          <p className="text-3xl sm:text-4xl font-bold text-white hover:text-rose-500 duration-200">Contact</p>
         </div>
         <div className="flex justify-center items-center w-full">
           <form ref={form} onSubmit={sendToGoogleSheets} className="w-full">

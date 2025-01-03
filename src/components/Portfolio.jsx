@@ -66,18 +66,18 @@ export const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full min-h-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"
+      className="w-full min-h-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] p-8 pt-16"
     >
       <div className="max-w-screen-lg p-4 h-full w-full mx-auto text-white flex flex-col justify-center items-center md:items-start">
-        <div className="pb-8">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white hover:text-rose-500 transition-colors duration-300">
+        <div className="pb-4 mb-4 mt-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white hover:text-rose-500 transition-colors duration-300">
             Portfolio
           </h2>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-12 sm:px-0">
           {projects.map(({ id, image, title, github }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 duration-500 transform transition-transform w-56 h-72">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 duration-500 transform transition-transform w-64 h-72 m-4 p-4 mt-4">
               <img src={image} alt={title} className="rounded-t-lg w-full h-36 object-cover" />
               <h3 className="text-xl font-bold text-center mt-2">{title}</h3>
               <div className="flex items-center justify-evenly p-2">

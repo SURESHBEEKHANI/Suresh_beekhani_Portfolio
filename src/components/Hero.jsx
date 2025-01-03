@@ -24,7 +24,7 @@ export const Hero = () => {
     >
       <div className="max-w-screen-lg flex flex-col-reverse mx-auto h-full w-full text-white justify-center items-center md:flex-row">
         <div className="flex flex-col justify-center h-full text-center md:text-left px-6 mt-8 md:mt-0">
-          <h3 className={`text-3xl sm:text-6xl font-bold whitespace-nowrap ${color} hover:text-rose-500`}>
+          <h3 className={`text-2xl sm:text-5xl font-bold whitespace-nowrap ${color} hover:text-rose-500`}>
             {heading}
           </h3>
           <p className="text-white text-lg max-w-md py-4 mx-auto md:mx-0">

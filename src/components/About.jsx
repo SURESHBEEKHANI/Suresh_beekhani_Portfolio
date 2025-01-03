@@ -8,7 +8,7 @@ export const About = () => {
     >
       <div className="max-w-screen-lg p-4 h-full w-full mx-auto flex flex-col justify-center items-center text-white md:items-start">
         <div className="py-6 sm:text-center">
-          <h2 className="text-4xl sm:text-5xl font-bold hover:text-rose-500 hover:scale-105 duration-200">
+          <h2 className="text-3xl sm:text-4xl font-bold hover:text-rose-500 hover:scale-105 duration-200">
             About
           </h2>
         </div>

@@ -27,7 +27,7 @@ export const Navbar = () => {
     {
       id: 5,
       data: "services",
-    }, // services
+    },
     {
       id: 6,
       data: "experience",
@@ -45,7 +45,7 @@ export const Navbar = () => {
   return (
     <div className="w-full fixed top-0 left-0 z-50 bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
       <div className="flex justify-between items-center h-16 px-4">
-        <div className="text-3xl font-bold cursor-pointer text-white hover:text-rose-500 hover:scale-105 duration-200">
+        <div className="text-2xl font-bold cursor-pointer text-white hover:text-rose-500 hover:scale-105 duration-200">
           SURESH BEEKHANI
         </div>
 

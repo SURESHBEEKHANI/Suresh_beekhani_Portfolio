@@ -81,12 +81,12 @@ export const Skills = () => {
       {/* Skills Section */}
       <div
         name="skills"
-        className="w-full h-screen md:min-h-screen lg:min-h-[80vh] bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] flex flex-col items-center justify-center" // Removed mt-10 for margin from top
+        className="w-full h-screen md:min-h-screen lg:min-h-[90vh] bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] flex flex-col items-center justify-center" // Increased lg:min-h to 90vh
       >
         <div className="max-w-screen-lg p-4 h-full w-full mx-auto text-white flex flex-col justify-center items-center md:items-start">
           {/* Frameworks Section */}
           <div className="pb-8">
-            <p className="text-5xl sm:text-6xl font-bold text-white hover:text-rose-500 transition-colors duration-300">
+            <p className="text-3xl sm:text-4xl font-bold text-white hover:text-rose-500 transition-colors duration-300">
             Skills
             </p>
           </div>
@@ -97,7 +97,7 @@ export const Skills = () => {
                 key={id}
                 className="shadow-md hover:scale-105 duration-500 py-1 rounded-lg shadow-gray-600 transform transition-transform bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] hover:bg-[#1a1a1a] text-white" // Removed rose colors
               >
-                <img src={icon} alt={title} className="mx-auto w-16 h-16 sm:w-20 sm:h-20" />
+                <img src={icon} alt={title} className="mx-auto w-10 h-10 sm:w-14 sm:h-14" />
                 <p className="text-xl mt-1 text-white font-semibold">{title}</p>
               </div>
             ))}

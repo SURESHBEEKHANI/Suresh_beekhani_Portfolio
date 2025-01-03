@@ -66,20 +66,20 @@ export const Service = () => {
     >
       <div className="max-w-screen-lg p-4 h-full w-full mx-auto text-white flex flex-col justify-center items-center md:items-start">
         <div className="pb-8">
-          <p className="text-4xl sm:text-5xl font-bold text-white hover:text-rose-500 transition-colors duration-300">
+          <p className="text-3xl sm:text-4xl font-bold text-white hover:text-rose-500 transition-colors duration-300">
             Services
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center py-8 px-4 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center py-6 px-2 sm:px-0">
           {services.map(({ id, title, description, icon }) => (
             <div
               key={id}
-              className="shadow-md hover:scale-105 duration-500 py-4 rounded-lg shadow-gray-600 transform transition-transform bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] hover:bg-[#1a1a1a] text-white"
+              className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-gray-600 transform transition-transform bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] hover:bg-[#1a1a1a] text-white"
             >
               {icon}
-              <h3 className="text-2xl font-bold">{title}</h3>
-              <p className="mt-2">{description}</p>
+              <h3 className="text-xl font-bold">{title}</h3>
+              <p className="mt-1 text-sm">{description}</p>
             </div>
           ))}
         </div>
