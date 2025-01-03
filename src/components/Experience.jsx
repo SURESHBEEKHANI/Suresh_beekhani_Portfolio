@@ -8,14 +8,14 @@ export const Experience = () => {
       role: "Generative AI Engineer",
       company: "Fiverr",
       duration: "Dec 2023 – Present",
-      description: "Specialize in machine learning applications, including predictive modeling, NLP, computer vision, and deep learning. Skilled in Python, LLMOps, vector databases, and frameworks like LangChain. Focus on delivering tailored AI solutions to meet client needs with high standards. Committed to creating innovative, impactful applications that solve complex challenges.",
+      description: "Specialize in machine learning applications, including predictive modeling, NLP, and deep learning. Skilled in Python, LLMOps, vector databases, and frameworks like LangChain. Focus on delivering tailored AI solutions to meet client needs with high standards. Committed to creating innovative, impactful applications that solve complex challenges.",
     },
     {
       id: 2,
       role: "Machine Learning Engineer",
       company: "Upwork",
       duration: "Dec 2022 – Present",
-      description: "Worked with clients worldwide on a diverse range of machine learning projects. Expertise in predictive modeling, NLP, computer vision, and deep learning. Deliver customized solutions, ensuring high-quality results and client satisfaction. Driven to solve complex challenges and achieve success in every project.",
+      description: "Worked with clients worldwide on a diverse range of machine learning projects. Expertise in predictive modeling, NLP, and deep learning. Deliver customized solutions, ensuring high-quality results and client satisfaction. Driven to solve complex challenges and achieve success in every project.",
     },
     {
       id: 2,
